@@ -13,4 +13,4 @@ services:
       timeout: 10s
       retries: 3
     volumes:
-      - ./src:/app/src  # Optional, for local development
+      - ./src:/src  # Optional, for local development
