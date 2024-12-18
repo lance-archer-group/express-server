@@ -3,7 +3,7 @@ services:
     build: .
     image: test-express-server:latest
     ports:
-      - "3000:3000"
+      - "3005:3005"
     restart: always
     environment:
       - NODE_ENV=production
