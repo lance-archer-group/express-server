@@ -13,4 +13,4 @@ services:
       timeout: 10s
       retries: 3
     volumes:
-      - ./data/express  # Optional, for local development
+      - ~/data/express  # Optional, for local development
